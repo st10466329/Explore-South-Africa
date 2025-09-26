@@ -18,9 +18,13 @@ The website allows users to learn more about South Africa’s provinces, top tra
 ## Project Structure
 Explore-South-Africa/
 ├── index.html         # Home page
+
 ├── about.html         # About South Africa / Provinces
+
 ├── services.html      # Destinations & Services offered
+
 ├── enquiries.html     # Enquiries / Feedback form
+
 ├── contact.html       # Personal contact information (no form)
 
 ├── css/
