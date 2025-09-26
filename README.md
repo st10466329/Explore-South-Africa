@@ -72,8 +72,8 @@ Copy code
 
 ---
 
-## Kabelo Thamsanqa Rathete
-🔗 [Explore South Africa Website](https://github.com/yourusername/Explore-South-Africa)  
+##  GitHub Repository
+🔗 [Explore South Africa Website](https://github.com/st10466329/Explore-South-Africa)  
 
 ---
 
