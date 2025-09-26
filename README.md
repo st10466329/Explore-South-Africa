@@ -1,80 +1,86 @@
-# Explore-South-Africa
-Explore South Africa – Part 2 of Web Development project (HTML + CSS).
+# Explore South Africa 🌍
+Tourism website for Part 2 of Web Development project.
 
-Explore South Africa – Part 2
+**Student:** Kabelo Thamsanqa Rathete  
+**Module:** Web Development (WIL 1)  
+**Project:** Explore South Africa Website  
+**Date:** September 2025  
 
-Student: Kabelo Thamsanqa Rathete
+---
 
-Project Overview
-This is the updated version of the Explore South Africa website, now with CSS styling. It builds on the foundation from Part 1 and makes the site visually appealing, centered, and easier to navigate.
+## Overview
+Explore South Africa is a simple tourism-focused website built using **HTML** and **CSS**, with responsive design for mobile, tablet, and desktop screens.  
 
-Purpose
+The website allows users to learn more about South Africa’s provinces, top travel destinations, available services, and provides contact/enquiries forms.  
 
-Showcase South Africa’s provinces, destinations, and attractions.
+---
 
-Provide an educational tourism guide for users.
+## Project Structure
+Explore-South-Africa/
+│
+├── index.html # Home page
+├── about.html # About the website
+├── services.html # Services offered
+├── enquiries.html # Enquiries / feedback page
+├── contact.html # Contact form
+│
+├── css/
+│ └── styles.css # External stylesheet
+│
+├── js/
+│ └── script.js # Basic placeholder JS file
+│
+├── images/ # Website images
+│
+└── README.md # Documentation (this file)
 
-Demonstrate web development skills (HTML + CSS) for the assignment.
+yaml
+Copy code
 
-Structure
-The website has 5 main pages:
+---
 
-Home – Welcome page with navigation and guide notes.
+## Features
+- **Responsive navigation bar** across all pages  
+- **Tourism content**: Provinces, destinations, services  
+- **Interactive forms**: Contact + enquiries page  
+- **Consistent design**: Same colors, fonts, and layout across pages  
+- **Responsive design**: Works on mobile, tablet, and desktop  
 
-Provinces – Lists all 9 provinces of South Africa.
+---
 
-Destinations – Highlights top destinations with images.
+## Improvements & Refinements (Part 2)
+- Added **CSS styling** for consistent design across all pages  
+- Implemented **responsive layout** with media queries  
+- New **Services page** to meet project requirements  
+- Folder structure updated with `css/`, `images/`, and `js/`  
+- Added **script.js** placeholder for scalability  
+- Updated README with changelog and references  
 
-Contact – Simple contact form for users to send messages.
+---
 
-Resources (optional) – Extra page for career tips / internships if included.
+## Changelog
+- **Part 1:** Basic HTML website (no CSS)  
+- **Part 2:** External stylesheet, services page, responsive design  
 
-Part 1 vs Part 2
-Part 1:
+---
 
-HTML-only version (barebones structure, 5 pages).
+## How to View
+1. Download the zipped project folder  
+2. Extract the folder  
+3. Open `index.html` in your browser  
+4. Navigate using the menu  
 
-Focused on content structure, navigation, lists, images, and user guides.
+---
 
-Part 2:
+## Kabelo Thamsanqa Rathete
+🔗 [Explore South Africa Website](https://github.com/yourusername/Explore-South-Africa)  
 
-Same pages from Part 1.
+---
 
-Added CSS styling to improve layout, colors, spacing, fonts, and responsiveness.
+## References (Harvard Style)
+1. South African Tourism, 2025. *Discover South Africa*. [online] Available at: <https://www.southafrica.net/> [Accessed 27 September 2025].  
+2. Pixabay, 2025. *Free Images for Tourism*. [online] Available at: <https://pixabay.com> [Accessed 27 September 2025].  
+3. W3Schools, 2025. *HTML and CSS Reference*. [online] Available at: <https://www.w3schools.com> [Accessed 27 September 2025].  
+4. MDN Web Docs, 2025. *Responsive Design Basics*. [online] Available at: <https://developer.mozilla.org/> [Accessed 27 September 2025].
 
-Full-screen layout with centered content.
 
-Buttons, navigation, and images are styled consistently for a professional look.
-
-Usage
-
-Open index.html in a browser to start.
-
-Use the navigation links at the top to move between pages.
-
-Follow guide notes on each page for tips and instructions.
-
-All pages share the same styles.css file for styling.
-
-Credits
-Student: Kabelo Thamsanqa Rathete
-
-References List
-
-South African Tourism, 2025. Discover South Africa. [online] Available at: https://www.southafrica.net/
- [Accessed 26 September 2025].
-
-Pixabay, 2025. Free Images for Tourism. [online] Available at: https://pixabay.com
- [Accessed 26 September 2025].
-
-W3Schools, 2025. HTML Tutorial. [online] Available at: https://www.w3schools.com/html/
- [Accessed 26 September 2025].
-
-W3Schools, 2025. CSS Tutorial. [online] Available at: https://www.w3schools.com/css/
- [Accessed 26 September 2025].
-
-Figma, 2025. Learn Design: Wireframing Guide. [online] Available at: https://www.figma.com/resources/learn-design/
- [Accessed 26 September 2025].
-
-South African Government, 2025. Provincial Information. [online] Available at: https://www.gov.za/about-sa/south-africa-glance
- [Accessed 26 September 2025].
