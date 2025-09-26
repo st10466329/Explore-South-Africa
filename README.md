@@ -88,7 +88,7 @@ Explore-South-Africa/
 
 ---
 
-## References (Harvard Style)
+## References List
 1. South African Tourism, 2025. *Discover South Africa*. [online] Available at: <https://www.southafrica.net/> [Accessed 27 September 2025].  
 2. Pixabay, 2025. *Free Images for Tourism*. [online] Available at: <https://pixabay.com> [Accessed 27 September 2025].  
 3. W3Schools, 2025. *HTML and CSS Reference*. [online] Available at: <https://www.w3schools.com> [Accessed 27 September 2025].  
