@@ -17,6 +17,7 @@ The website allows users to learn more about South Africa’s provinces, top tra
 
 ## Project Structure
 Explore-South-Africa/
+
 ├── index.html         # Home page
 
 ├── about.html         # About South Africa / Provinces
@@ -28,10 +29,12 @@ Explore-South-Africa/
 ├── contact.html       # Personal contact information (no form)
 
 ├── css/
-│   └── styles.css     # External stylesheet for consistent styling
+
+.    └── styles.css     # External stylesheet for consistent styling
 
 ├── js/
-│   └── script.js      # Placeholder JS file (if needed for interactivity)
+
+.    └── script.js      # Placeholder JS file (if needed for interactivity)
 
 ├── images/            # All website images (Table Mountain, Drakensberg, etc.)
 
