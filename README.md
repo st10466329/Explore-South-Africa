@@ -17,25 +17,22 @@ The website allows users to learn more about South Africa’s provinces, top tra
 
 ## Project Structure
 Explore-South-Africa/
-│
-├── index.html # Home page
-├── about.html # About the website
-├── services.html # Services offered
-├── enquiries.html # Enquiries / feedback page
-├── contact.html # Contact form
-│
-├── css/
-│ └── styles.css # External stylesheet
-│
-├── js/
-│ └── script.js # Basic placeholder JS file
-│
-├── images/ # Website images
-│
-└── README.md # Documentation (this file)
+├── index.html         # Home page
+├── about.html         # About South Africa / Provinces
+├── services.html      # Destinations & Services offered
+├── enquiries.html     # Enquiries / Feedback form
+├── contact.html       # Personal contact information (no form)
 
-yaml
-Copy code
+├── css/
+│   └── styles.css     # External stylesheet for consistent styling
+
+├── js/
+│   └── script.js      # Placeholder JS file (if needed for interactivity)
+
+├── images/            # All website images (Table Mountain, Drakensberg, etc.)
+
+└── README.md          # Documentation for project
+
 
 ---
 
@@ -44,7 +41,17 @@ Copy code
 - **Tourism content**: Provinces, destinations, services  
 - **Interactive forms**: Contact + enquiries page  
 - **Consistent design**: Same colors, fonts, and layout across pages  
-- **Responsive design**: Works on mobile, tablet, and desktop  
+- **Responsive design**: Works on mobile, tablet, and desktop
+
+---
+
+| Page               | Purpose                                                                                                                                                                                                            |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **index.html**     | Home page with welcome message and navigation.                                                                                                                                                                     |
+| **about.html**     | Provinces of South Africa with short guide.                                                                                                                                                                        |
+| **services.html**  | Destinations page with images of top South African locations.                                                                                                                                                      |
+| **enquiries.html** | Form for users to submit questions or request more information.                                                                                                                                                    |
+| **contact.html**   | Personal contact information (Kabelo Thamsanqa Rathete, phone: 062 378 4311, email: [Rathetekabelo047@gmail.com](mailto:Rathetekabelo047@gmail.com)). **No form** — all enquiries should go to the Enquiries page. |
 
 ---
 
