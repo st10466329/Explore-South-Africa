@@ -58,3 +58,23 @@ All pages share the same styles.css file for styling.
 
 Credits
 Student: Kabelo Thamsanqa Rathete
+
+References List
+
+South African Tourism, 2025. Discover South Africa. [online] Available at: https://www.southafrica.net/
+ [Accessed 26 September 2025].
+
+Pixabay, 2025. Free Images for Tourism. [online] Available at: https://pixabay.com
+ [Accessed 26 September 2025].
+
+W3Schools, 2025. HTML Tutorial. [online] Available at: https://www.w3schools.com/html/
+ [Accessed 26 September 2025].
+
+W3Schools, 2025. CSS Tutorial. [online] Available at: https://www.w3schools.com/css/
+ [Accessed 26 September 2025].
+
+Figma, 2025. Learn Design: Wireframing Guide. [online] Available at: https://www.figma.com/resources/learn-design/
+ [Accessed 26 September 2025].
+
+South African Government, 2025. Provincial Information. [online] Available at: https://www.gov.za/about-sa/south-africa-glance
+ [Accessed 26 September 2025].
