@@ -1,0 +1,152 @@
+/* styles.css
+   Student: Kabelo Thamsanqa Rathete | Mzansi Youth Job Connect
+   External stylesheet for Part 2 (desktop first, responsive)
+*/
+
+/* 1. Minimal reset to ensure consistency */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; }
+body {
+  width: 100%;
+  min-height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;          /* base size */
+  line-height: 1.5;
+  color: #222;
+  background-color: #ffffff;
+  -webkit-font-smoothing:antialiased;
+}
+
+/* 2. Page container (centered content, uses cascade so few selectors) */
+.container {
+  max-width: 1100px;        /* desktop reading width */
+  margin: 0 auto;           /* center horizontally */
+  padding: 24px;            /* breathing room */
+}
+
+/* 3. Header / Navigation */
+header { background: #0f1720; color: #fff; }
+nav .nav-list {
+  list-style: none;
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 0;
+}
+nav .nav-list a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 6px 8px;
+}
+nav .nav-list a:hover,
+nav .nav-list a:focus {
+  background-color: rgba(255,255,255,0.08);
+  border-radius: 6px;
+  outline: none;
+}
+
+/* 4. Main layout helpers (center main content vertically on large screens) */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 72px); /* account for header */
+  text-align: center;
+  padding: 40px 16px;
+}
+
+/* 5. Headings & typography scale */
+h1 { font-size: 2.0rem; margin-bottom: 8px; }
+h2 { font-size: 1.25rem; margin: 18px 0 8px; }
+p { margin-bottom: 12px; color: #333; }
+
+/* 6. Buttons / links look */
+a.button {
+  display: inline-block;
+  padding: 10px 18px;
+  background: #1f9d55;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 700;
+  margin: 8px;
+}
+a.button:hover { background: #178746; }
+
+/* 7. Jobs grid (desktop multi-column) */
+.jobs-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* single column by default */
+  gap: 24px;
+  width: 100%;
+  margin-top: 16px;
+}
+.job-card {
+  border: 1px solid #e6e6e6;
+  padding: 12px;
+  border-radius: 8px;
+  background: #fafafa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.job-card h3 { margin: 8px 0; font-size: 1.1rem; }
+
+/* Responsive images */
+.job-card img, img.responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+}
+
+/* 8. Forms centered */
+form { width: 100%; max-width: 600px; margin: 0 auto; text-align: left; }
+form label { display: block; margin-bottom: 6px; font-weight: 600; }
+form input[type="text"], form input[type="email"], form textarea {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 12px;
+  border: 1px solid #d0d0d0;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+form button {
+  padding: 10px 16px;
+  border: none;
+  background: #0f1720;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+form button:hover { opacity: 0.95; }
+
+/* 9. Footer note small */
+footer { text-align: center; padding: 12px 0; color: #666; font-size: 0.9rem; }
+
+/* 10. Responsive breakpoints */
+
+/* Tablet / small desktop */
+@media (min-width: 700px) {
+  h1 { font-size: 2.4rem; }
+  .jobs-grid { grid-template-columns: repeat(2, 1fr); } /* two columns */
+  main { padding: 60px 20px; }
+}
+
+/* Wide desktop */
+@media (min-width: 1200px) {
+  .container { max-width: 1300px; }
+  .jobs-grid { grid-template-columns: repeat(3, 1fr); } /* three columns on wide screens */
+  h1 { font-size: 2.8rem; }
+}
+
+/* Mobile narrow tweaks */
+@media (max-width: 479px) {
+  body { font-size: 15px; }
+  nav .nav-list { gap: 10px; font-size: 0.95rem; padding: 10px 0; }
+  form { padding: 0 10px; }
+}
